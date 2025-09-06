@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "start": "zenn preview",
+    "markdownlint": "markdownlint-cli2 \"**/*.{md,mdx}\"",
+    "markdownlint:fix": "markdownlint-cli2 --fix \"**/*.{md,mdx}\"",
+    "lint:docs": "textlint --cache **/*.{md,mdx}",
+    "lint:docs:fix": "textlint --cache --fix **/*.{md,mdx}"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@secretlint/secretlint-rule-preset-recommend": "^11.2.0",
+    "lefthook": "^1.12.3",
+    "markdownlint-cli2": "^0.18.1",
+    "prettier": "^3.6.2",
+    "secretlint": "^11.2.0",
+    "textlint": "^15.2.2",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-rule-preset-ja-spacing": "^2.4.3",
+    "textlint-rule-preset-ja-technical-writing": "^12.0.2",
+    "textlint-rule-preset-smarthr": "^1.36.0",
+    "textlint-rule-prh": "^6.1.0",
+    "textlint-rule-spellcheck-tech-word": "^5.0.0"
+  }
+}

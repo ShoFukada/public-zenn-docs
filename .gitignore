@@ -1,0 +1,77 @@
+############################
+# Common .gitignore (Node) #
+############################
+
+# Dependencies
+node_modules/
+bower_components/
+
+# Logs and reports
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+report.*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build outputs / caches
+dist/
+build/
+out/
+lib/
+.cache/
+.tmp/
+tmp/
+temp/
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# Env files (keep samples)
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.schema
+
+# OS junk
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors / IDEs
+# .vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.history/
+
+# Tooling caches
+.eslintcache
+.stylelintcache
+.textlintcache
+
+# Node REPL
+.node_repl_history
+
+# Optional npm cache directory
+.npm

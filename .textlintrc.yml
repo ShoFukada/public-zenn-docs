@@ -1,0 +1,31 @@
+---
+plugins:
+  mdx: true
+filters:
+  comments: true
+rules:
+  # SmartHR のプリセットルールを使用（句点混在のルールはオフ）
+  preset-smarthr:
+    # 文末の句点が混在していてもエラーにしない
+    ja-no-mixed-period: false
+  preset-ja-spacing:
+    # 全角と半角の間のスペースのルールをオフ
+    ja-space-between-half-and-full-width: false
+  preset-ja-technical-writing:
+    # 文の長さの制限をオフ（長い文章が必要な場合に対応）
+    sentence-length: false
+    # 文末の句点が混在していてもエラーにしない
+    ja-no-mixed-period: false
+    # 漢字の連続使用制限をオフ（専門用語や固有名詞が多い場合に対応）
+    max-kanji-continuous-len: false
+    # 感嘆符（!）や疑問符（?）の使用制限をオフ
+    no-exclamation-question-mark: false
+  ja-technical-writing:
+    # カンマ(,)の上限をオフ
+    max-comma: false
+  # 技術用語のスペルチェックを有効化
+  spellcheck-tech-word: true
+  # カスタムの置換ルールを適用
+  prh:
+    rulePaths:
+      - ./rules.yml

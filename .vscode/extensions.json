@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "davidanson.vscode-markdownlint",
+    "taichi.vscode-textlint",
+    "secretlint.vscode-secretlint",
+    "unifiedjs.vscode-mdx"
+  ]
+}

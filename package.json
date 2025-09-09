@@ -13,7 +13,7 @@
     "lefthook": "^1.12.3",
     "markdownlint-cli2": "^0.18.1",
     "prettier": "^3.6.2",
-    "secretlint": "^11.2.0",
+    "secretlint": "^11.2.4",
     "textlint": "^15.2.2",
     "textlint-filter-rule-comments": "^1.2.2",
     "textlint-rule-preset-ja-spacing": "^2.4.3",

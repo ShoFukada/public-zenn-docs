@@ -9,7 +9,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
-    "@secretlint/secretlint-rule-preset-recommend": "^11.2.0",
+    "@secretlint/secretlint-rule-preset-recommend": "^11.2.4",
     "lefthook": "^1.12.3",
     "markdownlint-cli2": "^0.18.1",
     "prettier": "^3.6.2",

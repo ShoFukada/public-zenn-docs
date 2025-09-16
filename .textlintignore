@@ -1,0 +1,3 @@
+# Exclude memo files
+memo.md
+docs/memo/*

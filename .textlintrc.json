@@ -1,0 +1,30 @@
+{
+  "filters": {
+    "comments": true
+  },
+  "rules": {
+    "preset-smarthr": {
+      "ja-no-mixed-period": false,
+      "ja-no-redundant-expression": false,
+      "sentence-length": false
+    },
+    "preset-ja-spacing": true,
+    "preset-ja-spacing/ja-space-between-half-and-full-width": false,
+    "preset-ja-technical-writing": {
+      "sentence-length": false,
+      "ja-no-mixed-period": false,
+      "max-kanji-continuous-len": false,
+      "no-exclamation-question-mark": false,
+      "max-comma": false,
+      "ja-no-weak-phrase": false,
+      "no-mix-dearu-desumasu": false,
+      "no-doubled-joshi": false,
+      "max-ten": false,
+      "no-doubled-conjunction": false
+    },
+    "spellcheck-tech-word": true,
+    "prh": {
+      "rulePaths": ["./rules.yml"]
+    }
+  }
+}

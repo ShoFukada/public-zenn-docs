@@ -3,7 +3,7 @@ title: 'uvで始めるモダンPythonプロジェクトセットアップ'
 emoji: '🐕'
 type: 'tech' # tech: 技術記事 / idea: アイデア
 topics: ['Python', 'uv']
-published: false
+published: true
 publication_name: medurance
 ---
 

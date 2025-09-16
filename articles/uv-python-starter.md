@@ -16,6 +16,9 @@ publication_name: medurance
 - テスト環境の設定とCI(precommit, Github Actions)の導入
 - VSCode設定
 
+なお、今回の記事の内容を入れたリポジトリについても公開してよので、あわせてご確認ください。
+https://github.com/ShoFukada/uv-python-starter-template
+
 ## 1. uvについて
 
 uvは、Astral社が開発したRust製のPythonパッケージ・プロジェクトマネージャーです。従来のpip + venvやpoetryに代わるツールとして多くのプロジェクトで採用されはじめています。
@@ -578,4 +581,6 @@ class Settings(BaseSettings):
 
 ## まとめ
 
-uvを使ったモダンなPython開発環境の構築方法を紹介しました。ぜひお試しください！　今後もPython, TypeScript, AWS関連の記事を中心に投稿していく予定ですので、フォローいただけると嬉しいです！
+uvを使ったモダンなPython開発環境の構築方法を紹介しました。ぜひお試しください！　 今後もPython, TypeScript, AWS関連の記事を中心に投稿していく予定ですので、フォローいただけると嬉しいです！
+
+https://github.com/ShoFukada/uv-python-starter-template

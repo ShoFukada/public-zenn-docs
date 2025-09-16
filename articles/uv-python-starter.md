@@ -1,5 +1,5 @@
 ---
-title: 'uvで始めるモダンPythonプロジェクトセットアップ'
+title: 'uvで始めるモダンPythonプロジェクトセットアップ (uv, Ruff, Pyright, Pytest, Precommit, GithubActions)'
 emoji: '🐕'
 type: 'tech' # tech: 技術記事 / idea: アイデア
 topics: ['Python', 'uv']

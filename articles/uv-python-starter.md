@@ -16,7 +16,7 @@ publication_name: medurance
 - テスト環境の設定とCI(precommit, Github Actions)の導入
 - VSCode設定
 
-なお、今回の記事の内容を入れたリポジトリについても公開してよので、あわせてご確認ください。
+なお、今回の記事の内容を入れたリポジトリについても公開してるので、あわせてご確認ください。
 https://github.com/ShoFukada/uv-python-starter-template
 
 ## 1. uvについて

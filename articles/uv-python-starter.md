@@ -9,7 +9,7 @@ publication_name: medurance
 
 ## 0.はじめに
 
-初めまして。Meduranceエンジニアの深田翔(ふかしょ)です。本記事ではuvを使ったモダンなPythonプロジェクトセットアップを紹介していきます。
+初めまして。Meduranceエンジニアの深田翔です。本記事ではuvを使ったモダンなPythonプロジェクトセットアップを紹介していきます。
 
 - uvの基本的な使い方とプロジェクト初期化
 - モダンなPython開発環境（linter/formatter/型チェック）の構築

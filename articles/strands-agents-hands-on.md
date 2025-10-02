@@ -9,7 +9,7 @@ publication_name: medurance
 
 ## 0. はじめに
 
-Meduranceエンジニアの深田翔です。本記事では、AWSから公開されたOSSのAIエージェントSDK「Strands Agents」の主要機能を実際に触ってみた内容をまとめています。
+Meduranceエンジニアの深田翔です。本記事では、AWSから公開されたOSSのAIエージェントSDK「Strands Agents」の主要機能を実際に触ってみた内容をまとめました。
 
 [公式サイト](https://strandsagents.com/latest/documentation/docs/)のユーザーガイドから特に重要と思われる機能をピックアップして説明して触りました。詳細な仕様や最新情報は公式ドキュメントを参照ください。
 
@@ -41,7 +41,7 @@ Strands AgentsはAWSから公開されたOSSのAIエージェントSDKです。L
 5. **ステップ2-4を繰り返す**：目標達成まで継続
 6. **最終応答を返す**：タスク完了
 
-この循環プロセスにより、エージェントは複雑なタスクを段階的に解決できます。
+この一連の循環プロセスにより、エージェントは複雑なタスクを段階的に解決できます。
 
 ![Agent Loop](/images/strands-agents-hands-on/agent_loop.png)
 
@@ -2015,3 +2015,4 @@ AIエージェントのアーキテクチャ選択については、[r.kagaya �
 
 Strands Agentsの主要な機能について一通り紹介しました。ぜひお試しください。
 気になる点があればお気軽にコメント等ください！
+https://github.com/ShoFukada/strands_agents_hands_on

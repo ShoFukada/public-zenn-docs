@@ -1832,15 +1832,15 @@ Tool #2: recommend_product
 
 Swarnにはいくつか引数があります。以下の通りです。
 
-| パラメータ | 説明 | デフォルト値 |
-|-----------|------|-------------|
-| `entry_point` | 最初に実行するエージェント | 必須 |
-| `max_handoffs` | エージェント間のハンドオフ最大回数 | 20 |
-| `max_iterations` | 全エージェントでの最大反復回数 | 20 |
-| `execution_timeout` | Swarm全体の実行タイムアウト (秒) | 900 (15分) |
-| `node_timeout` | 各エージェントの実行タイムアウト (秒) | 300 (5分) |
-| `repetitive_handoff_detection_window` | ピンポン動作検出の履歴画面サイズ | 0 (無効) |
-| `repetitive_handoff_min_unique_agents` | 検出に必要な最小ユニークエージェント数 | 0 (無効) |
+| パラメータ                             | 説明                                   | デフォルト値 |
+| -------------------------------------- | -------------------------------------- | ------------ |
+| `entry_point`                          | 最初に実行するエージェント             | 必須         |
+| `max_handoffs`                         | エージェント間のハンドオフ最大回数     | 20           |
+| `max_iterations`                       | 全エージェントでの最大反復回数         | 20           |
+| `execution_timeout`                    | Swarm全体の実行タイムアウト (秒)       | 900 (15分)   |
+| `node_timeout`                         | 各エージェントの実行タイムアウト (秒)  | 300 (5分)    |
+| `repetitive_handoff_detection_window`  | ピンポン動作検出の履歴画面サイズ       | 0 (無効)     |
+| `repetitive_handoff_min_unique_agents` | 検出に必要な最小ユニークエージェント数 | 0 (無効)     |
 
 では実装して試してみましょう。
 

@@ -3,7 +3,7 @@ title: 'AWS製AIエージェントOSS Strands Agentsの主要機能ハンズオ�
 emoji: '🖐️'
 type: 'tech' # tech: 技術記事 / idea: アイデア
 topics: ['aws', 'Bedrock', 'LLM', 'python', 'strandsagents']
-published: false
+published: true
 publication_name: medurance
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 'S3 Vectors × Knowledge Bases でRAGチャットボット (boto3使用)'
-emoji: '🖐️'
+emoji: '🔍'
 type: 'tech' # tech: 技術記事 / idea: アイデア
 topics: ['aws', 'bedrock', 'llm', 'python', 'rag']
 published: true

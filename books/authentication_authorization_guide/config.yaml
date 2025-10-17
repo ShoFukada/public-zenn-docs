@@ -1,0 +1,14 @@
+title: '認証認可とそのプロトコル(OAuth2.0,OpenID Connect,SAML)ガイド'
+summary: 'OAuth2.0、OpenID Connect、SAMLなど、モダンな認証認可の仕組みを解説します'
+topics: ['web', 'security', 'oauth', 'oidc', 'cookie']
+published: false
+price: 0 # 有料の場合200〜5000
+# 本に含めるチャプターを順番に並べましょう
+chapters:
+  - chapter1_overview
+  - chapter2_oauth2
+  - chapter3_oauth2_flows
+  - chapter4_openid_connect
+  - chapter5_jwt
+  - chapter6_saml
+  - chapter7_cookie_session

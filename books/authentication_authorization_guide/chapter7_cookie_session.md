@@ -166,6 +166,46 @@ res.cookie('access_token', token, {
 })
 ```
 
+:::message alert
+**重要な注意点: Authorization ヘッダーとの違い**
+
+HttpOnly Cookieにトークンを保存した場合、ブラウザは自動的に`Cookie`ヘッダーでトークンを送信します。`Authorization`ヘッダーにはなりません。
+
+```http
+# HttpOnly Cookieの場合
+GET /api/profile HTTP/1.1
+Cookie: access_token=eyJhbGc...
+
+# LocalStorageからAuthorizationヘッダーで送る場合
+GET /api/profile HTTP/1.1
+Authorization: Bearer eyJhbGc...
+```
+
+**API側の実装への影響:**
+
+- HttpOnly Cookieを使う場合: `Cookie`ヘッダーからトークンを読み取る実装が必要
+- Authorizationヘッダーを使う場合: `Authorization`ヘッダーから読み取る実装が必要
+
+**HttpOnly ではない通常の Cookie の場合:**
+
+HttpOnly属性をつけないCookieであれば、JavaScriptからアクセス可能なため、Cookieから値を取り出して`Authorization`ヘッダーに設定することも可能です。ただし、この場合はXSS攻撃でトークンが盗まれるリスクが高まります。
+
+```javascript
+// 非推奨: HttpOnlyなしのCookieから読み取って送信
+const token = document.cookie
+  .split('; ')
+  .find((row) => row.startsWith('access_token='))
+  ?.split('=')[1]
+
+fetch('/api/profile', {
+  headers: {
+    Authorization: `Bearer ${token}`
+  }
+})
+```
+
+:::
+
 **リスク:**
 
 - CSRF攻撃のリスク（SameSite属性で軽減可能）

@@ -23,6 +23,6 @@
     "textlint-rule-spellcheck-tech-word": "^5.0.0"
   },
   "dependencies": {
-    "zenn-cli": "^0.2.3"
+    "zenn-cli": "^0.2.10"
   }
 }
